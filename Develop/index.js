@@ -43,10 +43,9 @@ inquirer
         message: 'What is your Github username?'
     },
     {
-        type: 'list',
-        message: 'What is your preferred method of communication?',
-        name: 'contact',
-        choices: ['email', 'phone', 'Slack', 'smoke signal']
+        type: 'input',
+        name: 'Email',
+        message: 'What is your email address?',
     },
     {
       type: 'checkbox',
